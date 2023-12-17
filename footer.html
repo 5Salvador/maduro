@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="footer.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+      margin-top: auto;
+    }
+
+    h4 {
+      color: #333;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+
+    @media only screen and (min-width: 600px) {
+      footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+
+      .contact-section,
+      .services-section,
+      .social-media-section,
+      .collection-section,
+      .copyright-section {
+        flex: 1;
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Your page content goes here -->
+
+  <footer>
+    <div class="contact-section">
+      <h4>Nossos contactos</h4>
+      <p>Email: info@example.com</p>
+      <p>Numero: +258 84 689 5985</p>
+      <p>Emdereço: Maputo, Moçmbique</p>
+    </div>
+
+    <div class="services-section">
+      <h4>Nossas coleções</h4>
+      <ul>
+        <li><a href=""></a>Coleção 1</li>
+        <li>Coleção 2</li>
+        <li>Coleção 3</li>
+      </ul>
+    </div>
+
+    <div class="social-media-section">
+      <h4>Segue-nos</h4>
+      <ul>
+        <a href="https://www.facebook.com/profile.php?id=100049350883777" target="_blank">
+            <img src="face.png" alt="" width="35px">
+        </a>
+        <a href="https://www.whatsapp.com/" target="_blank">
+            <img src="Whatssap.png" alt=""width="35px">
+        </a>
+        <a href="https://www.instagram.com/_maduro" target="_blank">
+            <img src="insta.png" alt="" width="35px">
+        </a>
+      </ul>
+    </div>
+
+    <div class="copyright-section">
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
