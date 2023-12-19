@@ -1,0 +1,56 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333; /* Add your desired background color */
+    color: #333; /* Add your desired text color */
+    padding: 20px;
+}
+
+.contact-section,
+.services-section,
+.social-media-section,
+.copyright-section {
+    flex: 1;
+    max-width: 300px; /* Adjust max-width as needed */
+}
+
+.services-section ul {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+    background-color:nome;
+    transition: 0.5s;
+}
+.services-section ul:hover{
+    text-decoration: none;
+    
+}
+
+.services-section li {
+    color: black;
+    margin-bottom: 5px;
+
+}
+.services-section li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.services-section li:hover::after{
+    width: 100%;
+}
+.social-media-section ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-section img {
+    border-radius: 50%; /* Optional: Round the social media icons */
+}
