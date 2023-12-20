@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		 <!-- font awesome cdn link  -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+		<link rel="stylesheet" href="css/style1.css">
+		<link rel="stylesheet" href="css/footer.css">
+        <script src="js/script1.js" defer></script>
+		<style>
+            #product1{
+                text-align: center; 
+             }
+             #product1 .pro-container{
+                 display: flex;
+                 justify-content: space-between;
+                 padding-top: 20px;
+                 flex-wrap: wrap;
+             }
+             #product1 .pro{
+                 width: 23%;
+                 min-width: 140px;
+                 padding: 10px 12px;
+                 border: 1px solid whitesmoke;
+                 border-radius: 25px;
+                 cursor: pointer;
+                 box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+                 margin: 15px 0;
+             }
+             #product1 .pro img{
+                 width: 100%;
+                 border-radius: 20px;
+             }
+             #product1 .pro .des {
+                 text-align: start;
+                 padding: 10px 0;
+             }
+             #product1 .pro .des span{
+                 color: #606063;
+                 font-size: 12px;
+             }
+             #product1 .pro .des h5{
+                 padding-top: 7px;
+                 color: #1a1a1a;
+                 font-size: 14px;
+             }
+             footer {
+                background-color: #f2f2f2;
+                padding: 20px;
+                text-align: center;
+                margin-top: auto;
+              }
+          
+              h4 {
+                color: #333;
+              }
+          
+              p {
+                margin: 5px 0;
+              }
+          
+              ul {
+                list-style: none;
+                padding: 0;
+              }
+          
+              li {
+                margin: 5px 0;
+              }
+          
+              a {
+                text-decoration: none;
+                color: #007BFF;
+              }
+          
+              @media only screen and (min-width: 600px) {
+                footer {
+                  display: flex;
+                  justify-content: space-around;
+                  align-items: flex-start;
+                  flex-wrap: wrap;
+                }
+              }
+		
+          </style>
+
+        <title>Maduro Website</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="#" class="nav__logo">
+                        <img src="logo1.jpg" style="height: 40px; padding-left: 20px;"><b>MADURO</b>
+                    </a>
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line nav__toggle-menu"></i>
+                        <i class="ri-close-line nav__toggle-close"></i>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="home.html" class="nav__link">INICIO</a>
+                        </li>
+
+                        <!--=============== DROPDOWN 1 ===============-->
+                        <li class="dropdown__item">                      
+                            <div class="nav__link dropdown__button">
+                                JEREMIAH 333 <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        
+    
+                                        <span class="dropdown__title">T-Shirt's</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="Jeremiah333.html" class="dropdown__link">Collection</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        
+                                        <span class="dropdown__title">Hoddies</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    
+    
+                                    <div class="dropdown__group">
+                                        
+    
+                                        <span class="dropdown__title">Classic</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--=============== DROPDOWN 2 ===============-->
+                        <li class="dropdown__item">
+                            <div class="nav__link dropdown__button">
+                                PUSH <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        
+    
+                                        <span class="dropdown__title">T-Shirt's</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        
+    
+                                        <span class="dropdown__title">Hoddie'<s></s></span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">NoContent</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    
+                                </div>
+                            </div>
+                        </li>
+						<li class="dropdown__item"> 
+                              <div class="nav__link dropdown__button">
+                                COMPANY <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>						
+                            
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        
+    
+                                        <span class="dropdown__title">About us</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">About us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Support</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Contact us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        
+    
+                                        <span class="dropdown__title">Company</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Cookie settings</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Privacy Policy</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav__link">CATALOGO</a>
+                        </li>
+						<li>
+                            <a href="#" class="nav__link">SERVICOS</a>
+                        </li>
+                        
+                      <!--=============== DROPDOWN 3 ===============-->
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <br>
+        <!--=============== MAIN JS ===============-->
+        <script src="js/main.js"></script>
+		<!---------------- SCRIPT1 JS ---------->
+		
+<br>	
+<br>
+<br>
+  
+    <img src="image/maduro7.jpg" class="pic">	
+ 
+<br>
+<section id="product1" class="section1">
+  <div class="pro-container">
+    <div class="pro">
+      <img src="maduro10.jpg" alt="">
+      <div class="des">
+        <span>Maduro</span>
+        <h5>Tshirts Maduro</h5>
+        <h4>6600MT</h4>
+        <a href="#"></a>
+      </div>
+    </div>
+ 
+    <div class="pro">
+      <img src="maduro10.jpg" alt="">
+      <div class="des">
+        <span>Maduro</span>
+        <h5>Tshirts Maduro</h5>
+        <h4>6600MT</h4>
+        <a href="#"></a>
+      </div>
+    </div>
+  
+  
+    <div class="pro">
+      <img src="maduro10.jpg" alt="">
+      <div class="des">
+        <span>Maduro</span>
+        <h5>Tshirts Maduro</h5>
+        <h4>6600MT</h4>
+        <a href="#"></a>
+      </div>
+    </div>
+  
+ 
+    <div class="pro">
+      <img src="maduro10.jpg" alt="">
+      <div class="des">
+        <span>Maduro</span>
+        <h5>Tshirts Maduro</h5>
+        <h4>6600MT</h4>
+        <a href="#"></a>
+      </div>
+    </div>
+  
+ 
+    <div class="pro">
+      <img src="maduro10.jpg" alt="">
+      <div class="des">
+        <span>Maduro</span>
+        <h5>Tshirts Maduro</h5>
+        <h4>6600MT</h4>
+        <a href="#"></a>
+      </div>
+    </div>
+  
+ 
+    <div class="pro">
+      <img src="maduro10.jpg" alt="">
+      <div class="des">
+        <span>Maduro</span>
+        <h5>Tshirts Maduro</h5>
+        <h4>6600MT</h4>
+        <a href="#"></a>
+      </div>
+    </div>
+  
+
+    <div class="pro">
+      <img src="maduro10.jpg" alt="">
+      <div class="des">
+        <span>Maduro</span>
+        <h5>Tshirts Maduro</h5>
+        <h4>6600MT</h4>
+        <a href="#"></a>
+      </div>
+    </div>
+
+ 
+    <div class="pro">
+      <img src="maduro10.jpg" alt="">
+      <div class="des">
+        <span>Maduro</span>
+        <h5>Tshirts Maduro</h5>
+        <h4>6600MT</h4>
+        <a href="#"></a>
+      </div>
+    </div>
+  
+  
+    <div class="pro">
+      <img src="maduro10.jpg" alt="">
+      <div class="des">
+        <span>Maduro</span>
+        <h5>Tshirts Maduro</h5>
+        <h4>6600MT</h4>
+        <a href="#"></a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Your page content goes here -->
+<!--footer----->
+  <footer>
+    <div class="contact-section">
+      <h4>Nossos contactos</h4>
+      <p>Email: info@example.com</p>
+      <p>Numero: +258 84 689 5985</p>
+      <p>Emdereço: Maputo, Moçmbique</p>
+    </div>
+
+    <div class="services-section">
+      <h4>Nossas coleções</h4>
+      <ul>
+        <li><a href=""></a>Coleção 1</li>
+        <li>Coleção 2</li>
+        <li>Coleção 3</li>
+      </ul>
+    </div>
+
+    <div class="social-media-section">
+      <h4>Segue-nos</h4>
+      <ul>
+        <a href="https://www.facebook.com/profile.php?id=100049350883777" target="_blank">
+            <img src="face.png" alt="" width="35px">
+        </a>
+        <a href="https://www.whatsapp.com/" target="_blank">
+            <img src="Whatssap.png" alt=""width="35px">
+        </a>
+        <a href="https://www.instagram.com/_maduro" target="_blank">
+            <img src="insta.png" alt="" width="35px">
+        </a>
+      </ul>
+    </div>
+
+    <div class="copyright-section">
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </div>
+  </footer>
+
+ </body>
+</html>  
