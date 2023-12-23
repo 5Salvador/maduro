@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="css/footer.css">
   <style>
     body {
       margin: 0;
@@ -36,11 +36,18 @@
 
     li {
       margin: 5px 0;
+      cursor: pointer;
+      background-color: none;
+      
+    }
+    li::after{
+      background-color: red;
     }
 
     a {
       text-decoration: none;
       color: #007BFF;
+      cursor: pointer;
     }
 
     @media only screen and (min-width: 600px) {
@@ -67,19 +74,25 @@
   <!-- Your page content goes here -->
 
   <footer>
+    <img src="logo1.jpg" alt="">
     <div class="contact-section">
       <h4>Nossos contactos</h4>
-      <p>Email: info@example.com</p>
+      <p>Email: <a href="info@example.com">info@example.com</a></p>
       <p>Numero: +258 84 689 5985</p>
-      <p>Emdereço: Maputo, Moçmbique</p>
+      <p>Emdereço: Maputo, Moçambique</p>
     </div>
 
     <div class="services-section">
       <h4>Nossas coleções</h4>
+    
       <ul>
-        <li><a href=""></a>Coleção 1</li>
-        <li>Coleção 2</li>
-        <li>Coleção 3</li>
+        <li><a href=""></a>Classic</li>
+        <li>
+          <a href="Jeremiah333.html" >Jermias 333</a>
+        </li>
+        <li><a href=""></a>Padrão</li>
+        <li><a href=""></a>Padrão</li>
+        <li><a href=""></a>Padrão</li>
       </ul>
     </div>
 
@@ -87,13 +100,13 @@
       <h4>Segue-nos</h4>
       <ul>
         <a href="https://www.facebook.com/profile.php?id=100049350883777" target="_blank">
-            <img src="face.png" alt="" width="35px">
+            <img src="image/face.png" alt="" width="35px">
         </a>
         <a href="https://www.whatsapp.com/" target="_blank">
-            <img src="Whatssap.png" alt=""width="35px">
+            <img src="image/Whatssap.png" alt=""width="35px">
         </a>
         <a href="https://www.instagram.com/_maduro" target="_blank">
-            <img src="insta.png" alt="" width="35px">
+            <img src="image/insta.png" alt="" width="35px">
         </a>
       </ul>
     </div>
