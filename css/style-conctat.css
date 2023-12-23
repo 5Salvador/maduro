@@ -1,0 +1,121 @@
+/* Default styles */
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}
+.location iframe{
+    width: 100%;
+    margin-top: 2%;
+}
+.Conctact-Us{
+    width: 40%;
+    margin: auto;
+    align-items: center;
+}
+.contact-col{
+    flex-basis:48%;
+    margin-bottom: 30px;
+    display: block;
+    align-items: center;
+    
+}
+
+@media (max-width:767px) {
+    .contact-col div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    
+    }
+    .contact-col div .fa{
+        font-size: 28px;
+        margin: 10px;
+        margin-right: 30px;
+    }
+    .contact-col div p{
+        padding: 0;
+    }
+    .contact-col div h5{
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: #555;
+        font-weight: 400;
+        justify-content: center;
+    }
+    .contact-col div h4{
+        width: 10px;
+        border: border;
+        justify-content: center;
+    }
+}
+.conctact form{
+    width: 600px;
+    text-align: center;
+}
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box .input-field{
+    width: 48%;
+}
+.field .item{
+    width: 100%;
+    padding: 18px;
+    border: 2px solid ;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    
+    margin:12px 0;
+}
+.field.error .item{
+    border-color: red;
+}
+.field .error-txt {
+    font-size: 14.5px;
+    color: red;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+.field.error .error-txt{
+    display: block;
+}
+form .textarea-field .item{
+    resize:none ;
+}
+form .textarea-field .error-txt{
+   margin-top: -10px; 
+}
+
+form button{
+    padding: 12px;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    align-self: center;
+    transition: .5s;
+}
